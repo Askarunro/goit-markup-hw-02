@@ -1,1 +1,99 @@
+/* color text and background
+ #2196F3 blue hover, focus, weblogo
+  #757575 color text
+
+color: rgba(255, 255, 255, 0.6);
+ footer color mail and tel
+
+
+*/
+
 /*  */
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --color-contacts: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--text-color);
+}
+
+/* Шапка */
+.header-nav {
+  color: #ffffff;
+}
+
+.color-logo {
+  color: var(--accent-color);
+}
+
+.color-logo.darker {
+  color: #000000;
+}
+
+.items-nav a {
+  color: var(--primary-text-color);
+}
+
+.items-nav a:hover,
+.items-nav a:focus {
+  color: var(--accent-color);
+}
+
+.items-cont a {
+  color: var(--text-color);
+}
+
+.items-cont a:hover,
+.items-cont a:focus {
+  color: var(--accent-color);
+}
+
+/* section-hero */
+
+.section-hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.button-hero {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/*section our advantages */
+
+.items-advantages h3 {
+  color: var(--primary-text-color);
+}
+
+/* section work */
+
+.section-work {
+}
+
+.title-section {
+  color: var(--primary-text-color);
+}
+
+/* sectiont team */
+
+.section-team {
+  background-color: #f5f4fa;
+}
+
+.items-team h3 {
+  color: var(--primary-text-color);
+}
+
+.team-box {
+  background-color: #ffffff;
+}
+
+/* Footer */
+
+.color-logo.lighter {
+  color: #ffffff;
+}
