@@ -26,6 +26,10 @@ body {
   color: #ffffff;
 }
 
+.logo {
+  text-decoration: none;
+}
+
 .color-logo {
   color: var(--accent-color);
 }
@@ -35,6 +39,7 @@ body {
 }
 
 .items-nav a {
+  text-decoration: none;
   color: var(--primary-text-color);
 }
 
@@ -44,6 +49,7 @@ body {
 }
 
 .items-cont a {
+  text-decoration: none;
   color: var(--text-color);
 }
 
@@ -67,7 +73,7 @@ body {
 
 .button-hero:hover,
 .button-hero:focus {
-  color: #188ce8;
+  background-color: #188ce8;
 }
 
 /*section our advantages */
@@ -105,14 +111,49 @@ body {
   background-color: #2f303a;
 }
 
+.footer > a {
+  text-decoration: none;
+}
+
 .color-logo.lighter {
   color: #ffffff;
 }
 
 .address a {
+  text-decoration: none;
   color: var(--color-contacts);
 }
 
 .address p {
   color: #ffffff;
+}
+
+/* ПОРТФОЛІО */
+
+/* Section filter */
+.section-filter {
+  background-color: #e5e5e5;
+}
+
+.button-filter {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.filter-box {
+  background-color: #ffffff;
+}
+
+.filter-box h3 {
+  color: var(--primary-text-color);
+}
+
+.filter-box p {
+  color: var(--text-color);
 }
