@@ -1,14 +1,3 @@
-/* color text and background
- #2196F3 blue hover, focus, weblogo
-  #757575 color text
-
-color: rgba(255, 255, 255, 0.6);
- footer color mail and tel
-
-
-*/
-
-/*  */
 :root {
   --primary-text-color: #212121;
   --text-color: #757575;
