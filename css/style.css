@@ -21,6 +21,8 @@ body {
   font-family: 'Roboto', 'sans-serif';
   color: var(--text-color);
   background-color: var(--primary-color-white);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 /* Шапка */
@@ -42,6 +44,16 @@ body {
   text-indent: 0%;
 }
 
+.list {
+  list-style: none;
+}
+
+.items-nav {
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: 0.02;
+}
+
 .items-nav a {
   text-decoration: none;
   color: var(--primary-text-color);
@@ -50,6 +62,12 @@ body {
 .items-nav a:hover,
 .items-nav a:focus {
   color: var(--accent-color);
+}
+
+.items-cont {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .items-cont a {
@@ -70,10 +88,22 @@ body {
   color: #ffffff;
 }
 
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .button-hero {
   background-color: var(--accent-color);
   color: #ffffff;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
 }
 
 .button-hero:hover,
@@ -83,27 +113,41 @@ body {
 
 /*section our advantages */
 
+.title-hidden {
+  display: none;
+}
+
 .items-advantages h3 {
   color: var(--primary-text-color);
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.items-advantages p {
+  line-height: 1.7;
 }
 
 /* section work */
 
-.section-work {
-}
-
-.title-section {
+h2.title-section {
   color: var(--primary-text-color);
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.2;
 }
 
 /* sectiont team */
 
 .section-team {
   background-color: #f5f4fa;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 .items-team h3 {
   color: var(--primary-text-color);
+  font-weight: 500;
 }
 
 /* Footer */
@@ -120,12 +164,21 @@ body {
   color: #ffffff;
 }
 
-.address a {
-  text-decoration: none;
-  color: var(--color-contacts);
+.address .location {
+  font-style: normal;
+  line-height: 1.7;
+  font-weight: 400;
 }
 
-.address p {
+.address .link-cont {
+  text-decoration: none;
+  color: var(--color-contacts);
+  line-height: 1.7;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.address span {
   color: #ffffff;
 }
 
@@ -136,6 +189,11 @@ body {
 .button-filter {
   background-color: #f5f4fa;
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .button-filter:hover,
@@ -150,8 +208,13 @@ body {
 
 .filter-box h2 {
   color: var(--primary-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06;
 }
 
 .filter-box p {
   color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.9;
 }
