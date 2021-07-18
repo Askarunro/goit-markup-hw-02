@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: 'Roboto', sans-serif;
   color: var(--text-color);
   background-color: var(--primary-color-white);
   font-size: 14px;
@@ -20,8 +20,7 @@ body {
 }
 
 .logo {
-  text-decoration: none;
-  font-family: 'Raleway', 'sans-serif';
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -33,23 +32,28 @@ body {
   text-indent: 0%;
 }
 
+/* відміняємо маркер списку */
 .list {
   list-style: none;
 }
 
-.items-nav {
-  font-weight: 500;
-  line-height: 1.7;
-  letter-spacing: 0.02;
+/* відміняємо підкреслення посилань */
+.link-style {
+  text-decoration: none;
 }
 
-.items-nav a {
-  text-decoration: none;
+.items-nav {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.link-nav {
   color: var(--primary-text-color);
 }
 
-.items-nav a:hover,
-.items-nav a:focus {
+.link-nav:hover,
+.link-nav:focus {
   color: var(--accent-color);
 }
 
@@ -59,13 +63,15 @@ body {
   letter-spacing: 0.02em;
 }
 
-.items-cont a {
-  text-decoration: none;
+.link-mail,
+.link-tel {
   color: var(--text-color);
 }
 
-.items-cont a:hover,
-.items-cont a:focus {
+.link-mail:hover,
+.link-mail:focus,
+.link-tel:hover,
+.link-tel:focus {
   color: var(--accent-color);
 }
 
@@ -106,19 +112,20 @@ body {
   display: none;
 }
 
-.items-advantages h3 {
+.subtitle-advantages {
   color: var(--primary-text-color);
+  font-size: 14px;
   line-height: 1.2;
   text-transform: uppercase;
 }
 
-.items-advantages p {
+.text-advantages {
   line-height: 1.7;
 }
 
 /* section work */
 
-h2.title-section {
+.title-section {
   color: var(--primary-text-color);
   text-align: center;
   font-size: 36px;
@@ -130,45 +137,42 @@ h2.title-section {
 .section-team {
   background-color: #f5f4fa;
   text-align: center;
+}
+
+.item-card {
   font-size: 16px;
   line-height: 1.2;
 }
 
-.items-team h3 {
+.title-card {
   color: var(--primary-text-color);
+  font-size: 16px;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 /* Footer */
-
 .footer {
   background-color: #2f303a;
-}
-
-.footer > a {
-  text-decoration: none;
 }
 
 .color-logo.lighter {
   color: #ffffff;
 }
 
-.address .location {
+.items-addr {
   font-style: normal;
   line-height: 1.7;
   font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
-.address .link-cont {
-  text-decoration: none;
-  color: var(--color-contacts);
-  line-height: 1.7;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.address span {
+.location {
   color: #ffffff;
+}
+
+.link-cont {
+  color: var(--color-contacts);
 }
 
 /* ПОРТФОЛІО */
@@ -191,18 +195,14 @@ h2.title-section {
   color: #ffffff;
 }
 
-.filter-box a {
-  text-decoration: none;
-}
-
-.filter-box h2 {
+.subtitle-list {
   color: var(--primary-text-color);
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
 }
 
-.filter-box p {
+.description-list {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.9;
